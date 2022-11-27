@@ -10,7 +10,7 @@ use trust_dns_resolver::error::ResolveErrorKind;
 use trust_dns_resolver::name_server::{GenericConnection, GenericConnectionProvider, TokioRuntime};
 use trust_dns_resolver::{config::*, AsyncResolver};
 
-/// Asynchronous DNS subdomain enumeration tool
+/// Asynchronous subdomain enumeration tool
 #[derive(Parser, Debug)]
 #[command(version)]
 struct Args {

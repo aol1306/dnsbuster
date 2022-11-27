@@ -1,6 +1,6 @@
 # dnsbuster
 
-Dnsbuster is an asynchronous DNS subdomain enumeration tool. Unlike other tools with similar purpose which work sequentially, dnsbuster allows you to set target QPS (Query per Second) value and then queries the DNS server in parallel. This should lead to increased enumeration speed.
+Dnsbuster is an asynchronous subdomain enumeration tool. Unlike other tools with similar purpose which work sequentially, dnsbuster allows you to set target QPS (Query per Second) value and then queries the DNS server in parallel. This should lead to increased enumeration speed.
 
 If you don't care about overloading the DNS server you're targetting, generally you can increase QPS for as long as the queries don't timeout.
 
